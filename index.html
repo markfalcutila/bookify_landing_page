@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style scss -->
+    <link rel="stylesheet" href="assets/style/css/main.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- bootstrap js  -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body> 
+
+    <div class="header">
+
+        <div class="main_header">
+            <!-- logo -->
+            <div class="logo">
+                <i class="material-icons logo_book">menu_book</i>
+                <div class="logo_title">
+                    <div class="title">
+                        <span class="orange">Book</span><span class="black">ify</span>
+                    </div>
+                    <div class="sub_title">
+                        BOOK STORE
+                    </div>
+                </div>
+            </div>
+
+            <div class="right_header">
+
+                <!-- search bar -->
+                <div class="search_container">
+                    <div class="search_menu">Menu</div>
+                    
+                    <div class="search_bar">
+                        <input type="text" class="search_editor" placeholder="Search books here..">
+                        <button class="search_button material-icons">
+                            search
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carts_container">
+
+                    <div class="cart">
+                        <i class='bx bx-heart' ></i>                
+                    </div>
+
+                    <div class="cart">
+                        <i class='bx bx-cart-add'></i>
+                    </div>
+
+                    <div class="cart">
+                        <i class='bx bx-user' ></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <ul class="navbar">
+            <li class="nav_menu">
+                <a href="#" class="link">Best Sellers</a>
+                <a href="#" class="link">New Arrivals</a>
+                <a href="#" class="link">On Sales</a>
+                <a href="#" class="link">Limited Editions</a>
+                <a href="#" class="link">$2 Books</a>
+                <a href="#" class="link">eVouchers</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="hero_section">
+        <div class="hero_left">
+            <span class="sub_title">HOLIDAY PROMO</span>
+            <span class="title">SPECIAL 50% OFF</span>
+            <span class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+            <button class="hero_btn">
+                SHOP NOW
+            </button>
+
+        </div>
+        <div class="hereo_right">
+            <img src="assets/images/bg-home.svg" class="hero_img" alt="">
+        </div>
+    </div>
+    
+    <div class="best_seller">
+        <div class="seller_title">
+            <span class="sub_title">OUR BEST SELLERS</span>
+            <span class="title">Recommended Books</span>
+        </div>
+
+        <div class="books_container col">
+
+            <div class="book col">
+                <div class="sale_tag">
+                    <img src="assets/images/sale-tag/20-off.svg" class="sale_img" alt="">
+                </div>
+                <div class="book_header">
+                    <img src="assets/images/book-1.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        The Book Thief
+                    </span>
+                    <span class="book_author">
+                        by Markus Zusak
+                    </span>
+                    <div class="price">
+                        <span class="old_orice">$3.99</span> <span class="new_price">$3.19</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book col">
+                <div class="book_header">
+                    <img src="assets/images/book-2.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        The Pisces (A Novel)
+                    </span>
+                    <span class="book_author">
+                        by Melissa Broder
+                    </span>
+                    <div class="price">
+                        <span class="new_price">$3.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book col">
+                <div class="book_header">
+                    <img src="assets/images/book-3.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        The Queen of Nothing
+                    </span>
+                    <span class="book_author">
+                        by Holly Black
+                    </span>
+                    <div class="price">
+                        <span class="new_price">$4.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book col">
+                <div class="book_header">
+                    <img src="assets/images/book-4.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        The Queen of Nothing
+                    </span>
+                    <span class="book_author">
+                        by Holly Black
+                    </span>
+                    <div class="price">
+                        <span class="old_orice">$3.99</span> <span class="new_price">$4.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        
+    </div>
+
+    <div class="hero_section_2">
+        <div class="hero_left">
+            <span class="sub_title">LIMITED TIME OFFER</span>
+            <span class="title">SPECIAL 60% OFF</span>
+            <span class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+            <button class="hero_btn">
+                SHOP NOW
+            </button>
+
+        </div>
+        <div class="hereo_right">
+            <img src="assets/images/bg-2.svg" class="hero_img" alt="">
+        </div>
+    </div>
+
+    <div class="all_product">
+        <div class="product_title">
+            <span class="sub_title">CHECK THIS OUT</span>
+            <span class="title">All Products</span>
+        </div>
+
+        <div class="product_container col">
+
+            <div class="product col">
+                <div class="book_header">
+                    <img src="assets/images/product-1.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        Emily Body Love LISA
+                    </span>
+                    <span class="book_author">
+                        Vogue Magazine
+                    </span>
+                    <div class="price">
+                         <span class="new_price">$3.19</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product col">
+                <div class="book_header">
+                    <img src="assets/images/product-2.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        Wider Than The Sky
+                    </span>
+                    <span class="book_author">
+                        by Katherine Rothschild
+                    </span>
+                    <div class="price">
+                        <span class="new_price">$4.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product col">
+                <div class="book_header">
+                    <img src="assets/images/product-3.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        Portrait of a Lady
+                    </span>
+                    <span class="book_author">
+                        Mayfair Magazine
+                    </span>
+                    <div class="price">
+                        <span class="new_price">$4.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product col">
+                <div class="book_header">
+                    <img src="assets/images/product-4.svg" alt="">
+                </div>
+                <div class="book_details">
+                    <span class="book_title">
+                        Dreams Lie Beneath
+                    </span>
+                    <span class="book_author">
+                        by Rebecca Ross
+                    </span>
+                    <div class="price">
+                        <span class="old_orice">$3.99</span> <span class="new_price">$4.99</span> 
+                    </div>
+                    <div class="book_btn">
+                        <span>ADD TO CART</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        
+    </div>
+
+
+
+    
+</body>
+</html>
